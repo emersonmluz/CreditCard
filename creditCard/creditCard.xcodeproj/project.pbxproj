@@ -13,6 +13,7 @@
 		EE20E13A2913302500192862 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE20E1382913302500192862 /* Main.storyboard */; };
 		EE20E13C2913302600192862 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE20E13B2913302600192862 /* Assets.xcassets */; };
 		EE20E13F2913302600192862 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE20E13D2913302600192862 /* LaunchScreen.storyboard */; };
+		EE20E14729133F0700192862 /* OCRAEXT.TTF in Resources */ = {isa = PBXBuildFile; fileRef = EE20E14629133F0700192862 /* OCRAEXT.TTF */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		EE20E13B2913302600192862 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE20E13E2913302600192862 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE20E1402913302600192862 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE20E14629133F0700192862 /* OCRAEXT.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = OCRAEXT.TTF; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		EE20E1312913302500192862 /* creditCard */ = {
 			isa = PBXGroup;
 			children = (
+				EE20E14829133F1100192862 /* Fonts */,
 				EE20E1322913302500192862 /* AppDelegate.swift */,
 				EE20E1342913302500192862 /* SceneDelegate.swift */,
 				EE20E1362913302500192862 /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				EE20E1402913302600192862 /* Info.plist */,
 			);
 			path = creditCard;
+			sourceTree = "<group>";
+		};
+		EE20E14829133F1100192862 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				EE20E14629133F0700192862 /* OCRAEXT.TTF */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE20E13F2913302600192862 /* LaunchScreen.storyboard in Resources */,
+				EE20E14729133F0700192862 /* OCRAEXT.TTF in Resources */,
 				EE20E13C2913302600192862 /* Assets.xcassets in Resources */,
 				EE20E13A2913302500192862 /* Main.storyboard in Resources */,
 			);
