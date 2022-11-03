@@ -69,31 +69,39 @@
                                                         </constraints>
                                                     </imageView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="35" translatesAutoresizingMaskIntoConstraints="NO" id="Zh1-jc-1CP" userLabel="numberCard">
-                                                        <rect key="frame" x="20" y="45" width="298.33333333333331" height="21"/>
+                                                        <rect key="frame" x="20" y="45" width="306.33333333333331" height="23"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5185" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="pXP-dU-N67">
-                                                                <rect key="frame" x="0.0" y="0.0" width="48.333333333333336" height="21"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="50.333333333333336" height="23"/>
                                                                 <fontDescription key="fontDescription" name="OCRAExtended" family="OCR A Extended" pointSize="20"/>
                                                                 <color key="textColor" systemColor="systemGray3Color"/>
                                                                 <nil key="highlightedColor"/>
+                                                                <color key="shadowColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <size key="shadowOffset" width="2" height="2"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="8100" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="qBe-bv-AOL">
-                                                                <rect key="frame" x="83.333333333333343" y="0.0" width="48.333333333333343" height="21"/>
+                                                                <rect key="frame" x="85.333333333333343" y="0.0" width="50.333333333333343" height="23"/>
                                                                 <fontDescription key="fontDescription" name="OCRAExtended" family="OCR A Extended" pointSize="20"/>
                                                                 <color key="textColor" systemColor="systemGray3Color"/>
                                                                 <nil key="highlightedColor"/>
+                                                                <color key="shadowColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <size key="shadowOffset" width="2" height="2"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0000" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Fha-hl-Ceh">
-                                                                <rect key="frame" x="166.66666666666669" y="0.0" width="48.333333333333343" height="21"/>
+                                                                <rect key="frame" x="170.66666666666669" y="0.0" width="50.333333333333343" height="23"/>
                                                                 <fontDescription key="fontDescription" name="OCRAExtended" family="OCR A Extended" pointSize="20"/>
                                                                 <color key="textColor" systemColor="systemGray3Color"/>
                                                                 <nil key="highlightedColor"/>
+                                                                <color key="shadowColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <size key="shadowOffset" width="2" height="2"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0000" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="kwc-C4-Xzp">
-                                                                <rect key="frame" x="250.00000000000003" y="0.0" width="48.333333333333343" height="21"/>
+                                                                <rect key="frame" x="256" y="0.0" width="50.333333333333314" height="23"/>
                                                                 <fontDescription key="fontDescription" name="OCRAExtended" family="OCR A Extended" pointSize="20"/>
                                                                 <color key="textColor" systemColor="systemGray3Color"/>
                                                                 <nil key="highlightedColor"/>
+                                                                <color key="shadowColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <size key="shadowOffset" width="2" height="2"/>
                                                             </label>
                                                         </subviews>
                                                     </stackView>
@@ -125,16 +133,20 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="08/27" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="oZd-Ox-djG">
-                                                        <rect key="frame" x="70" y="10.000000000000002" width="54.666666666666657" height="18.666666666666671"/>
+                                                        <rect key="frame" x="70" y="10.000000000000002" width="56.666666666666657" height="19.666666666666671"/>
                                                         <fontDescription key="fontDescription" name="OCRAExtended" family="OCR A Extended" pointSize="18"/>
                                                         <color key="textColor" systemColor="systemGray3Color"/>
                                                         <nil key="highlightedColor"/>
+                                                        <color key="shadowColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <size key="shadowOffset" width="2" height="1"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EMERSON M LUZ" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Hum-1H-swK">
-                                                        <rect key="frame" x="20" y="40" width="141.66666666666666" height="18.666666666666671"/>
+                                                        <rect key="frame" x="20" y="40" width="143.66666666666666" height="20.666666666666671"/>
                                                         <fontDescription key="fontDescription" name="OCRAExtended" family="OCR A Extended" pointSize="18"/>
                                                         <color key="textColor" systemColor="systemGray3Color"/>
                                                         <nil key="highlightedColor"/>
+                                                        <color key="shadowColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <size key="shadowOffset" width="2" height="2"/>
                                                     </label>
                                                 </subviews>
                                                 <constraints>
