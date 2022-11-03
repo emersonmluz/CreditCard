@@ -21,11 +21,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="lmy-Du-DN8" userLabel="containerOfLines">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gradient-background" translatesAutoresizingMaskIntoConstraints="NO" id="Qdy-zo-Q9T" userLabel="gradient">
+                                <rect key="frame" x="12.666666666666657" y="306" width="350" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="350" id="ArH-zI-PdJ"/>
+                                    <constraint firstAttribute="height" constant="200" id="vWc-cx-tAM"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="lmy-Du-DN8" userLabel="containerOfLines">
                                 <rect key="frame" x="12.666666666666657" y="306" width="350" height="200"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5I8-kb-C9p" userLabel="top">
-                                        <rect key="frame" x="0.0" y="0.0" width="350" height="66.666666666666671"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="350" height="66"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vortigo" translatesAutoresizingMaskIntoConstraints="NO" id="JyJ-SO-a7J">
                                                 <rect key="frame" x="190" y="5" width="150" height="50"/>
@@ -35,14 +42,14 @@
                                                 </constraints>
                                             </imageView>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="tintColor"/>
                                         <constraints>
                                             <constraint firstAttribute="trailing" secondItem="JyJ-SO-a7J" secondAttribute="trailing" constant="10" id="KUA-J1-QUa"/>
+                                            <constraint firstAttribute="height" constant="66" id="MLX-sk-mYc"/>
                                             <constraint firstItem="JyJ-SO-a7J" firstAttribute="top" secondItem="5I8-kb-C9p" secondAttribute="top" constant="5" id="UTC-XS-rfV"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sx3-wo-xHW" userLabel="center">
-                                        <rect key="frame" x="0.0" y="66.666666666666686" width="350" height="66.666666666666686"/>
+                                        <rect key="frame" x="0.0" y="66" width="350" height="67"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chip" translatesAutoresizingMaskIntoConstraints="NO" id="GVj-ik-N0H">
                                                 <rect key="frame" x="20" y="0.0" width="40" height="40"/>
@@ -88,10 +95,10 @@
                                                 </subviews>
                                             </stackView>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="tintColor"/>
                                         <constraints>
                                             <constraint firstItem="GVj-ik-N0H" firstAttribute="top" secondItem="Sx3-wo-xHW" secondAttribute="top" id="A5h-2t-dWO"/>
                                             <constraint firstItem="GVj-ik-N0H" firstAttribute="leading" secondItem="Sx3-wo-xHW" secondAttribute="leading" constant="20" id="CSv-Q1-sqz"/>
+                                            <constraint firstAttribute="height" constant="67" id="Piz-3u-oLp"/>
                                             <constraint firstItem="l60-b5-kz1" firstAttribute="top" secondItem="Sx3-wo-xHW" secondAttribute="top" constant="5" id="RHr-xY-GoQ"/>
                                             <constraint firstItem="l60-b5-kz1" firstAttribute="leading" secondItem="GVj-ik-N0H" secondAttribute="trailing" constant="10" id="cCn-Mq-aCG"/>
                                             <constraint firstItem="Zh1-jc-1CP" firstAttribute="leading" secondItem="Sx3-wo-xHW" secondAttribute="leading" constant="20" id="szg-t4-1xN"/>
@@ -99,10 +106,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yEV-4h-gda" userLabel="botton">
-                                        <rect key="frame" x="0.0" y="133.33333333333331" width="350" height="66.666666666666686"/>
+                                        <rect key="frame" x="0.0" y="133" width="350" height="67"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mastercard" translatesAutoresizingMaskIntoConstraints="NO" id="SSY-xr-v3Q">
-                                                <rect key="frame" x="259" y="0.0" width="81" height="66.666666666666671"/>
+                                                <rect key="frame" x="259" y="0.0" width="81" height="67"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="VALID THRU" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1R1-j0-Cdj">
                                                 <rect key="frame" x="25" y="5" width="40" height="30"/>
@@ -127,7 +134,6 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="tintColor"/>
                                         <constraints>
                                             <constraint firstItem="1R1-j0-Cdj" firstAttribute="leading" secondItem="yEV-4h-gda" secondAttribute="leading" constant="25" id="0Lo-uv-ZAa"/>
                                             <constraint firstItem="Hum-1H-swK" firstAttribute="leading" secondItem="yEV-4h-gda" secondAttribute="leading" constant="20" id="4EA-G4-77Z"/>
@@ -142,18 +148,32 @@
                                     </view>
                                 </subviews>
                                 <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="Sx3-wo-xHW" secondAttribute="trailing" id="12B-d5-ma5"/>
+                                    <constraint firstItem="Sx3-wo-xHW" firstAttribute="top" secondItem="5I8-kb-C9p" secondAttribute="bottom" id="1Zf-lx-vbW"/>
                                     <constraint firstAttribute="width" constant="350" id="2Sj-dB-YWo"/>
+                                    <constraint firstAttribute="trailing" secondItem="5I8-kb-C9p" secondAttribute="trailing" id="8xX-6L-PnQ"/>
                                     <constraint firstAttribute="height" constant="200" id="BaX-Jh-ZBQ"/>
+                                    <constraint firstItem="yEV-4h-gda" firstAttribute="leading" secondItem="lmy-Du-DN8" secondAttribute="leading" id="Ptq-xx-sQj"/>
+                                    <constraint firstItem="yEV-4h-gda" firstAttribute="top" secondItem="Sx3-wo-xHW" secondAttribute="bottom" id="TEG-d4-WN2"/>
+                                    <constraint firstAttribute="trailing" secondItem="yEV-4h-gda" secondAttribute="trailing" id="ZlX-l4-eoG"/>
+                                    <constraint firstItem="5I8-kb-C9p" firstAttribute="leading" secondItem="lmy-Du-DN8" secondAttribute="leading" id="cSs-hN-Dms"/>
+                                    <constraint firstAttribute="bottom" secondItem="yEV-4h-gda" secondAttribute="bottom" id="eZa-jH-zkb"/>
+                                    <constraint firstItem="Sx3-wo-xHW" firstAttribute="leading" secondItem="lmy-Du-DN8" secondAttribute="leading" id="f52-Av-Fmo"/>
+                                    <constraint firstItem="5I8-kb-C9p" firstAttribute="top" secondItem="lmy-Du-DN8" secondAttribute="top" id="pte-ed-goV"/>
                                 </constraints>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="Qdy-zo-Q9T" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1zY-ot-O1a"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="lmy-Du-DN8" secondAttribute="trailing" constant="12" id="GdM-X0-bcE"/>
                             <constraint firstItem="lmy-Du-DN8" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="12" id="KeA-Wh-e0r"/>
                             <constraint firstItem="lmy-Du-DN8" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Ope-pf-mFn"/>
+                            <constraint firstItem="Qdy-zo-Q9T" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="nhf-xQ-jFY"/>
                             <constraint firstItem="lmy-Du-DN8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qIx-yH-eB8"/>
+                            <constraint firstItem="Qdy-zo-Q9T" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="12" id="rtT-0e-7Ky"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Qdy-zo-Q9T" secondAttribute="trailing" constant="12" id="z1m-L4-hrU"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -165,6 +185,7 @@
     <resources>
         <image name="chip" width="50" height="38"/>
         <image name="contactless" width="500" height="633"/>
+        <image name="gradient-background" width="512" height="322"/>
         <image name="mastercard" width="81" height="52"/>
         <image name="vortigo" width="125" height="26"/>
         <systemColor name="systemBackgroundColor">
@@ -172,9 +193,6 @@
         </systemColor>
         <systemColor name="systemGray3Color">
             <color red="0.7803921568627451" green="0.7803921568627451" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="tintColor">
-            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
